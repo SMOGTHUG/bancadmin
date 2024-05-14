@@ -1,0 +1,31 @@
+.loan {
+    display: flex;
+    background: #fff;
+    justify-content:space-around;
+    align-items: center;
+  }
+  
+  .loan .container {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    align-items: center;
+    gap: 50px;
+  }
+  
+  .loan-banner {
+   position: relative;
+   margin-bottom: 40px;
+  }
+  
+  .loan-img {
+    width: 100%;
+  }
+  
+  
+  .loan-title {
+   margin-top: 5px;
+  }
+  
+  .loan .section-text {
+    margin-bottom: 5px;
+  }

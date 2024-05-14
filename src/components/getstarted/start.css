@@ -1,0 +1,22 @@
+.blog {
+    background: #E1F7F5;
+    padding: 150px 0 var(---setion-padding);
+    justify-content: space-around;
+    align-items: center;
+  }
+  
+  .blog-title {
+    text-align: center;
+  }
+  
+  .blog-title > h2 {
+   padding-top: 25px;
+  }
+  
+  .blog-list {
+    display: flex;
+    gap: 30px;
+    margin-bottom: 50px;
+    justify-content: center;
+    align-content: center;
+  }

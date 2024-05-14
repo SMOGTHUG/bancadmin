@@ -1,0 +1,58 @@
+*, *::before, *::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  height: 100vh;
+  font-family: "Roboto", sans-serif;
+  
+}
+
+.easy-card {
+    background: var(--white);
+    box-shadow: 5px 30px 50px hsla(0, 1%, 15%, 0.05);
+    padding: 20px;
+    border-radius: 25px;
+    max-width: 400px;
+    margin-inline: auto;
+    padding: 20px;
+    border-radius: 25px;
+  }
+  
+  
+  .easy-card .card-banner {
+    margin-bottom: 20px;
+    border-radius: 12px 12px 0 0;
+    overflow: hidden;
+  }
+  
+  .easy-card:hover img {transform: scale(1.05);}
+  
+  .easy-card .card-title { margin-bottom: 15px; }
+  
+  .easy-card .card-text {
+    line-height: 1.5;
+    margin-bottom: 20px;
+    text-align: center;
+  }
+  
+  .easy-card .card-link {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 10px;
+    transition: var(--transition);
+  }
+
+  .departments-title {
+    text-align: center;
+    margin-bottom: 80px;
+  }
+
+  .departments-list {
+    display: flex;
+    gap: 30px;
+    margin-bottom: 50px;
+  }

@@ -1,0 +1,47 @@
+*, *::before, *::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  height: 100vh;
+  font-family: "Roboto", sans-serif;
+  
+}
+
+.about {
+    background: #401F71;
+    color: #fff;
+    padding: 150px 0 var(---setion-padding);
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    border-radius: 25px;
+  }
+  
+  .about-banner {
+    margin-bottom: 30px;
+  }
+  
+  
+  .about img {
+    width: 100%;
+    margin-bottom: 5px;
+    }
+  
+    .about .about-content {
+      margin-right: 50px; 
+    }
+  .about .container {
+  
+    grid-template-columns: 1fr 1fr;
+    align-items: center;
+    gap: 50px;
+  }
+  
+  .about-title { margin-bottom: 5px; }
+  .about .section-text {
+    margin-bottom: 5px;
+  }
+  

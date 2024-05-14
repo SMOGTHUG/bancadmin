@@ -1,0 +1,19 @@
+.what {
+    padding: 150px 0 var(---setion-padding);
+    justify-content: space-around;
+    align-items: center;
+    display: grid;
+  }
+  
+  .what .what-content {
+    margin-right: 50px; 
+  }
+  
+  p {
+    font-size: small;
+  }
+  
+  .what-container > h5 {
+      text-decoration: underline;
+     text-decoration-color: #c3c4bf;
+  }

@@ -1,0 +1,26 @@
+.hero {
+    background: #1F2544;
+    color: #fff;
+    padding: 150px 0 var(---setion-padding);
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+  }
+  
+  .hero-banner {
+    margin-bottom: 30px;
+  }
+  
+  .hero img {
+     width: 100%;
+     margin-bottom: 5px;
+     }
+  
+  .hero .hero-content {
+    margin-right: 50px; 
+  } 
+  
+  .hero-title { margin-bottom: 5px; }
+  .hero .section-text {
+    margin-bottom: 5px;
+  }

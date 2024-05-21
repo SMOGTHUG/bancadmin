@@ -1,4 +1,4 @@
-*, *::before, *::after {
+/* *, *::before, *::after {
   box-sizing: border-box;
   margin: 0;
   padding: 0;
@@ -40,4 +40,28 @@ body {
   
   .loan .section-text {
     margin-bottom: 5px;
-  }
+  } */
+
+.about-parent {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  padding-top: 5rem;
+}
+
+.about-title > h2 {
+  margin-bottom: 0.5rem;
+
+}
+
+.about-title > p {
+  margin-bottom: 1rem;
+}
+
+.about-title > ul > li > h4 {
+  margin-bottom: 0.5rem;
+}
+
+.about-title > ul > li > p {
+  margin-bottom: 0.5rem;
+}

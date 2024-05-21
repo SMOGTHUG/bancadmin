@@ -9,68 +9,44 @@ const Details = () => {
   return (
     <section>
       <div className="departments">
-        <div >
-            <h2 className="departments-title">The Financial Partner for Your Business</h2>
+        <div className='department-title'>
+            <h2>The Financial Partner for Your Business</h2>
 
-            <ul className="departments-list">
-                <li>
-                    <div className="departments-card">
-                        <a href="#" className="card-banner">
-                            <figure>
-                                <img src={image9} width={200} height={200} alt="unsplashage" />
-                            </figure>
-                        </a>
-
-
-                        <a href="#">
-                            <h3 className="card-title">Business Account</h3>
-
-                        </a>
-
-                        <p className="card-text">
-                           Open an account for your business no matter the registeration status 
-                        </p>
+            <div  className='department-list'>
+                <ul>
+                    <div>
+                    
+                        <img src={image9} width={220} height={150} alt="unsplashage" />
+                        <h3>Business Account</h3>
+                        <p> Open an account for your business no <br/>matter the registeration status.</p>
+                    
                     </div>
-                </li>
-                <li>
-                    <div className="departments-card">
-                        <a href="#">
-                            <figure>
-                            <img src={image11} width={200} height={200} alt="unsplashage" />
-                            </figure>
-                        </a>
-
-
-                        
-                            <h3 className="card-title">Business Loans</h3>
-
-                        
-
-                        <p className="card-text">
-                          Get easy to pay back loans for expansion and growth 
-                        </p>
+                    <div>
+                    
+                        <img src={image11}  width={220} height={150} alt="unsplashage" />
+                        <h3>Business Loans</h3>
+                        <p> Get easy to pay back loans for expansion <br/>and growth </p>
+                    
                     </div>
-                </li>
-                <li>
-                    <div className="departments-card">
-                        <a href="#">
-                            <figure>
-                            <img src={image12} width={200} height={200} alt="unsplashage" /> 
-                            </figure>
-                        </a>
-
-
-                        <a href="#">
-                            <h3 className="card-title">Invoice Generation</h3>
-
-                        </a>
-
-                        <p className="card-text">
-                          Generate and share professional Invoice with your clients
-                        </p>
+                    <div>
+                    
+                        <img src={image12} width={220} height={150} alt="unsplashage" />
+                        <h3>Invoice Generation</h3>
+                        <p>Generate and share professional Invoice <br/>with your clients</p>
+                    
                     </div>
-                </li>
-            </ul>
+
+                    <div>
+                    
+                        <img src={image12} width={220} height={150} alt="unsplashage" /> 
+                         <h3>Invoice Generation</h3>
+                         <p> Generate and share professional Invoice <br/>with your clients</p>
+                    
+                    </div>
+                </ul>
+            </div>
+
+ 
         </div>
     </div>
     </section>

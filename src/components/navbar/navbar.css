@@ -3,23 +3,30 @@
     height: 60px;
     background: #401F71;
     align-items: center;
-    justify-content: space-between;
+    justify-content: space-evenly;
   
   }
   
-  .navbar > .nav-logo {
-    font-weight: 300;
-    font-size: 21px;
-    margin: 15px;
-    color: #FDF4F5;
-  
+  .navbar >   .nav-logo {
+    width: 10rem;
+    border-bottom: 5rem;
+    padding: 1rem;
   }
+
+  .nav-logo > img {
+    width: 100%;
+
+  }
+  
+  
   
   .navbar > .nav-item > a {
     color: #FDF4F5;
     font-size: 16px;
     text-decoration: none;
     margin: 15px;
+    justify-content: space-between;
+    margin-right: 5rem;
     position: relative;
     opacity: 0.9;
   }
@@ -50,15 +57,19 @@
   .navbar > .nav-item > .btn {
     background-color: #FB6D48;
     color: #FDF4F5;
-    padding: 5px 5px;
-    border-radius: 15px;
+    padding: 0.5rem;
+    margin-bottom: 1rem;
+    border-radius: 8px;
+    cursor: pointer;
     display: flex-end;
-   
+
     
   }
   
   .navbar > .nav-item > button:hover{
-    color: #FB6D48;
+    color: #ece7e6;
+    background-color: #000000;
+    
   }
   
   button {

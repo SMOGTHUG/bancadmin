@@ -10,12 +10,6 @@ body {
   
 }
 
-/* .parent-container {
-  padding: 2rem;
-  max-width: 1200px;
-  margin: 0 auto;
-
-} */
 
 .bg {
     background: rgb(0, 0, 0, 0.5) url(../././../images/image1.png);
@@ -29,15 +23,15 @@ body {
     color: #FDF4F5;
     display: block;
     text-align: justify;
-    border: 1rem solid #FB6D48;
   }
 
   .bg > h1 {
     margin-top: 5rem;
+    margin-left: 5rem;
    
   }
 
-  .bg > h1, p {
+  .bg > p {
     margin-left: 5rem;
   }
   

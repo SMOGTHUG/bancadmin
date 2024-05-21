@@ -10,6 +10,10 @@ import Banner from "../components/banner/Banner";
 import Faq from "../components/faq/Faq";
 import Start from "../components/getstarted/Start"
 import Blog from "../components/blog/Blog";
+import Mail from "../components/mail/Mail";
+import Footer from "../components/footer/Footer";
+
+
   
 
 
@@ -36,7 +40,15 @@ export default function Home() {
             <Start />
 
             <Blog />
-      </ div>
+
+            <Mail />
+
+            <Footer />
+
+
+
+        
+      </div>
        
 
         

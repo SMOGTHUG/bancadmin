@@ -1,26 +1,45 @@
-.hero {
-    background: #1F2544;
-    color: #fff;
-    padding: 150px 0 var(---setion-padding);
+  .customer-parent {
+    background-color: #1F2544;
+    color: white;
     display: flex;
-    justify-content: space-around;
+    justify-content: space-evenly;
     align-items: center;
+    padding-top: 5rem;
   }
-  
-  .hero-banner {
-    margin-bottom: 30px;
+
+  .customer-title > h2 {
+    margin-bottom: 0.5rem;
+
   }
-  
-  .hero img {
-     width: 100%;
-     margin-bottom: 5px;
-     }
-  
-  .hero .hero-content {
-    margin-right: 50px; 
-  } 
-  
-  .hero-title { margin-bottom: 5px; }
-  .hero .section-text {
-    margin-bottom: 5px;
+
+  .customer-title > p {
+    margin-bottom: 2rem;
+  }
+
+  .customer-container > ul > li > h4 {
+    margin-bottom: 0.5rem;
+  }
+
+  .customer-container > ul > li > p {
+    margin-bottom: 2rem;
+    
+  }
+
+  .customer-container > ul {
+    margin-left: 1rem;
+  }
+
+  .customer-pic > img {
+ padding-top: 5rem;
+ margin-right: 8rem;
+
+  }
+
+  .customer-btn{
+    margin-left: 1rem;
+    background-color: #FB6D48;
+    color: #FDF4F5;
+    padding: 13px 15px;
+    border-radius: 5px;
+    width: 8rem
   }
